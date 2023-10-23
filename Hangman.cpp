@@ -3,7 +3,6 @@
 //Players can take turns or work together. 
 //Gameplay continues until the players guess the word or they run out of guesses and the stick figure is hung.
 
-//dxfcgvb nnj
 
 #include <iostream>
 #include <string>
