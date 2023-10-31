@@ -14,7 +14,7 @@ using namespace std;
 const int MAX_TRIES=5;
 
 //Functions declaration
-int letterCheck (char, string, string&);
+
 void HangMan(int wrongGuess);
 int letterCheck (char guess, string hiddenWord, string &guessWord);
 
