@@ -148,23 +148,23 @@ int main ()
 		"manipur",
 		"hyderabad",
 		"haryana",
-        "mizoram",
-        "telangana",
-        "karnataka",
-        "nagaland",
-        "tripura",
-        "chattisgarh",
-        "kerela",
-        "orissa",
-        "uttarakhand",
-        "punjab",
-        "rajasthan",
-        "meghalaya"
+	        "mizoram",
+	        "telangana",
+	        "karnataka",
+	        "nagaland",
+	        "tripura",
+	        "chattisgarh",
+	        "kerela",
+	        "orissa",
+	        "uttarakhand",
+	        "punjab",
+	        "rajasthan",
+	        "meghalaya"
 	};
 
 	//Choosing a random state name from list of words
 	srand(time(NULL));
-	int n=rand()% 10;
+	int n=rand()% 20;
 	word=words[n];
     
 	//Initialize the hidden word with the * character.
